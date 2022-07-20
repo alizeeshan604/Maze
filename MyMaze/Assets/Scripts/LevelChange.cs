@@ -7,7 +7,7 @@ using TMPro;
 public class LevelChange : MonoBehaviour
 {
     int level = 1;
-    public TextMeshProUGUI text;
+    public TextMeshProUGUI mytext;
     public Image[] image;
     // Start is called before the first frame update
     void Start()
@@ -20,10 +20,28 @@ public class LevelChange : MonoBehaviour
     {
         
     }
-    public void changelevel()
+    public void changelevelfwd()
     {
-        Debug.Log("Here I am");
-        level += 1;
-
+        if (level < 7)
+        {
+            level += 1;
+            mytext.text = "MAP " + level.ToString();
+        }
+        else
+        {
+            mytext.text = "MAP " + level.ToString();
+        }
+    }
+    public void changelevelbcwd()
+    {
+        if (level > 1)
+        {
+            level -= 1;
+            mytext.text = "MAP " + level.ToString();
+        }
+        else
+        {
+            mytext.text = "MAP " + level.ToString();
+        }
     }
 }
