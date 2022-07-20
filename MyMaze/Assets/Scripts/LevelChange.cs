@@ -8,7 +8,7 @@ public class LevelChange : MonoBehaviour
 {
     int level = 1;
     public TextMeshProUGUI mytext;
-    public Image[] image;
+    //public Sprite[] image;
     // Start is called before the first frame update
     void Start()
     {
