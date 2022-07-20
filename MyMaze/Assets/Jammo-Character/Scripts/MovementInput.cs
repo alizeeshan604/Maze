@@ -106,6 +106,10 @@ public class MovementInput : MonoBehaviour {
 		InputX = Input.GetAxis ("Horizontal");
 		InputZ = Input.GetAxis ("Vertical");
 
+		// Restrict Back Movement
+		if (InputZ < 0f) return;
+		
+
 		//anim.SetFloat ("InputZ", InputZ, VerticalAnimTime, Time.deltaTime * 2f);
 		//anim.SetFloat ("InputX", InputX, HorizontalAnimSmoothTime, Time.deltaTime * 2f);
 
