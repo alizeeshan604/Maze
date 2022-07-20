@@ -280,7 +280,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -17.533762, y: -17.097885, z: -20.05019}
+    m_Target: {x: 316.24353, y: 175.52818, z: -336.1161}
     speed: 2
-    m_Value: {x: -17.533762, y: -17.097885, z: -20.05019}
+    m_Value: {x: 316.24353, y: 175.52818, z: -336.1161}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -445,13 +445,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12663639, y: 0.8664602, z: -0.3950839, w: -0.27774164}
+    m_Target: {x: -0.013809898, y: -0.0024014348, z: 0.000010619506, w: -0.99992037}
     speed: 2
-    m_Value: {x: -0.12663502, y: 0.8664508, z: -0.3950796, w: -0.27773863}
+    m_Value: {x: -0.013809642, y: -0.0009015352, z: -0.00001009516, w: -0.9999043}
   m_Size:
-    m_Target: 25.899195
+    m_Target: 10.005136
     speed: 2
-    m_Value: 25.899195
+    m_Value: 10.476582
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ec9f0000
-      m_LastClickedID: 40940
-      m_ExpandedIDs: be14ffff6a19ffff0620ffff90f0ffff06a00000
+      m_SelectedIDs: 5ce7feff
+      m_LastClickedID: -71844
+      m_ExpandedIDs: 62e7feffcaf1feff7cf2feffe8fafeffbe14ffff6a19ffff0620ffff90f0ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -716,22 +716,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Levels
+    - Assets/Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Levels
+  - Assets/Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Maze\MyMaze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a850000
-    m_LastClickedID: 34090
-    m_ExpandedIDs: 00000000966000009e6000004a75000000ca9a3b
+    m_SelectedIDs: 94cf0000
+    m_LastClickedID: 53140
+    m_ExpandedIDs: 00000000966000004a75000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -784,8 +784,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ec9f0000
-    m_LastClickedInstanceID: 40940
+    m_SelectedInstanceIDs: 5ce7feff
+    m_LastClickedInstanceID: -71844
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: e2760000
     m_RenameOverlay:
@@ -803,7 +803,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -834,8 +834,8 @@ MonoBehaviour:
     y: 0
     width: 306
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -876,7 +876,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 378
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
