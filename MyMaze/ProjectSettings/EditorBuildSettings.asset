@@ -9,17 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuScene.unity
     guid: e112aabcde0171e44a05c96589416c67
   - enabled: 1
-<<<<<<< Updated upstream
-    path: Assets/Scenes/SelectionMaptwo.unity
-    guid: 5d701facca7c7a24c8d2fa783d4729be
-  - enabled: 1
-    path: Assets/Scenes/MAP1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-=======
     path: Assets/Scenes/SelectionScreen.unity
     guid: 5d701facca7c7a24c8d2fa783d4729be
->>>>>>> Stashed changes
   - enabled: 1
     path: Assets/Scenes/MapOne.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/LevelBuilderScene.unity
+    guid: 7d70eea3e3d22cd42b0d532db7928cd6
   m_configObjects: {}
