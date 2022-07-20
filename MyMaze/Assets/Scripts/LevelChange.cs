@@ -2,27 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
+using TMPro;
 
-public class movementscript : MonoBehaviour
+public class LevelChange : MonoBehaviour
 {
     int level = 1;
-    public Text currenttext;
-    public Image[] Images;
-    
+    public TextMeshProUGUI text;
+    public Image[] image;
     // Start is called before the first frame update
     void Start()
     {
         
-    }
-    void changelevel()
-    {
-
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    public void changelevel()
+    {
+        Debug.Log("Here I am");
+        level += 1;
+
     }
 }
