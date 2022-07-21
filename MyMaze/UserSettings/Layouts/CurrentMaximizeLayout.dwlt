@@ -58,7 +58,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - D:\Maze\MyMaze\Library\PlayModeViewStates\268e98a3a31bcc4448909f565ef6d705
+  - D:\Maze\MyMaze\Library\PlayModeViewStates\a688fa9b39dba734a85d0a648dda6b05
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -165,8 +165,8 @@ MonoBehaviour:
     y: 0
     width: 609
     height: 314
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -283,7 +283,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.4762115, y: 3.8294163, z: 90}
+    m_Target: {x: 7.0207715, y: 34.597725, z: -2.8673851}
     speed: 2
-    m_Value: {x: 1.4762115, y: 3.8294163, z: 90}
+    m_Value: {x: 7.0207715, y: 34.597725, z: -2.8673851}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -448,13 +448,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.10868231, y: -0.0044730804, z: 0.00048931094, w: 0.99406993}
+    m_Target: {x: 0.33811924, y: -0.65563023, z: 0.4182978, w: 0.5299619}
     speed: 2
-    m_Value: {x: 0.108681925, y: -0.0044730646, z: 0.0004893092, w: 0.99406636}
+    m_Value: {x: 0.33811787, y: -0.65562755, z: 0.4182961, w: 0.52995974}
   m_Size:
-    m_Target: 77.47471
+    m_Target: 12.124355
     speed: 2
-    m_Value: 77.47471
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -590,8 +590,8 @@ MonoBehaviour:
     y: 314
     width: 609
     height: 321
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -616,8 +616,8 @@ MonoBehaviour:
     y: 0
     width: 179
     height: 635
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -654,9 +654,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5e090100
-      m_LastClickedID: 67934
-      m_ExpandedIDs: f0c1fdff98c2fdffa6c7fdffb8d1fdff30d2fdffead2fdff8c0efeff2a11feffb811feff1615feff3e51feff9e5bfeffce5bfeffbe66feff1087feff86bcfeff0ac1feff82c3feff44cffeff10d0feffcaf1feff7cf2feffe8fafeffbe14ffff6a19ffff0620ffff90f0ffff04d900002cdb00003edb0000c6dd0000d8dd00000ade0000aef70000c0f70000ae070100c007010066090100
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ecefffff78f4ffff06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -747,22 +747,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Jammo-Character/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Jammo-Character/Materials
   m_LastFoldersGridSize: 50
   m_LastProjectPath: D:\Maze\MyMaze
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0600000
-    m_LastClickedID: 24736
-    m_ExpandedIDs: 00000000966000004a75000000ca9a3b
+    m_SelectedIDs: c8690000
+    m_LastClickedID: 27080
+    m_ExpandedIDs: 0000000000640000026400001864000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -790,7 +790,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000966000004a75000000ca9a3b
+    m_ExpandedIDs: 00000000006400000264000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -815,8 +815,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5e090100
-    m_LastClickedInstanceID: 67934
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: e276000098dc00004ad800009c600000
     m_RenameOverlay:
@@ -845,7 +845,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 50
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 139
+  m_DirectoriesAreaWidth: 50
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
