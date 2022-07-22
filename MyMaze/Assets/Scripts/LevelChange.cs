@@ -39,10 +39,6 @@ public class LevelChange : MonoBehaviour
         levelImage.sprite = imageDisplay[index-1];
     }
 
-    public void ReturnToHome()
-    {
-        SceneManager.LoadScene("MainMenuScene");
-    }
 
     public void loadlevel()
     {
