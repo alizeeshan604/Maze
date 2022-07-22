@@ -49,4 +49,9 @@ public class LevelChange : MonoBehaviour
         }
     }
 
+    public void GoToHome()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+    }
+
 }

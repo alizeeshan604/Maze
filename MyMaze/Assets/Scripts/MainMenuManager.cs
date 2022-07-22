@@ -27,4 +27,11 @@ public class MainMenuManager : MonoBehaviour
         aboutUsPanel.SetActive(true);
 
     }
+
+    public void OnClickExitBtn()
+    {
+        Debug.Log("application exited");
+        Application.Quit();
+    }
+
 }
