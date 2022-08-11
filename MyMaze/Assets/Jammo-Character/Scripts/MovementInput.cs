@@ -22,6 +22,7 @@ public class MovementInput : MonoBehaviour {
 	public Camera cam;
 	public CharacterController controller;
 	public bool isGrounded;
+	public GameObject checkpoint;
 
     [Header("Animation Smoothing")]
     [Range(0, 1f)]
@@ -108,13 +109,37 @@ public class MovementInput : MonoBehaviour {
 
 		// Restrict Back Movement
 		if (InputZ < 0f) return;
-		
 
-		//anim.SetFloat ("InputZ", InputZ, VerticalAnimTime, Time.deltaTime * 2f);
-		//anim.SetFloat ("InputX", InputX, HorizontalAnimSmoothTime, Time.deltaTime * 2f);
 
-		//Calculate the Input Magnitude
-		Speed = new Vector2(InputX, InputZ).sqrMagnitude;
+		Vector3 pos = transform.position;
+		pos.y = 0.358F;
+		transform.position = pos;
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+			Instantiate(checkpoint,transform.position,Quaternion.identity);
+		}
+
+		if (Input.GetKey(KeyCode.K))
+		{
+			bool isFighting = anim.GetBool("fight");
+			//print("im fighting");
+			isFighting = true;
+			anim.SetBool("fight", true); 
+		}
+		else
+		{
+			bool isFighting = anim.GetBool("fight");
+			//print("i am not fighting");
+			isFighting = false;
+			anim.SetBool("fight", false);
+		}
+
+
+        //anim.SetFloat ("InputZ", InputZ, VerticalAnimTime, Time.deltaTime * 2f);
+        //anim.SetFloat ("InputX", InputX, HorizontalAnimSmoothTime, Time.deltaTime * 2f);
+
+        //Calculate the Input Magnitude
+        Speed = new Vector2(InputX, InputZ).sqrMagnitude;
 
         //Physically move player
 
