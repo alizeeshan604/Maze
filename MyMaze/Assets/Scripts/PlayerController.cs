@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject jambo;
     public NavMeshAgent agent;
+    //public int health;
+
 
     // Update is called once per frame
     void Update()

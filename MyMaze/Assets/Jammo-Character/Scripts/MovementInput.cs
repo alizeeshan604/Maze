@@ -23,6 +23,10 @@ public class MovementInput : MonoBehaviour {
 	public CharacterController controller;
 	public bool isGrounded;
 	public GameObject checkpoint;
+	public GameObject enemy;
+	private bool isFighting = false;
+	private bool contactmade = false;
+
 
     [Header("Animation Smoothing")]
     [Range(0, 1f)]
@@ -62,6 +66,30 @@ public class MovementInput : MonoBehaviour {
 
 
     }
+
+	void OnCollisionEnter(Collision coll)
+	{
+		if (isFighting == true)
+		{
+			print(coll.other.gameObject.name);
+			if (coll.other.gameObject.name == enemy.name)
+			{
+				print(coll.other.gameObject.name);
+				Destroy(enemy);
+			}
+		}
+        else
+        {
+			print(coll.other.gameObject.name);
+			if (coll.other.gameObject.name == enemy.name)
+			{
+				print(coll.other.gameObject.name);
+				Destroy(gameObject);
+			}
+		}
+	}
+
+
 
     void PlayerMoveAndRotation() {
 		InputX = Input.GetAxis ("Horizontal");
@@ -119,20 +147,26 @@ public class MovementInput : MonoBehaviour {
 			Instantiate(checkpoint,transform.position,Quaternion.identity);
 		}
 
+		
+
 		if (Input.GetKey(KeyCode.K))
 		{
-			bool isFighting = anim.GetBool("fight");
+			//isFighting = anim.GetBool("fight");
 			//print("im fighting");
-			isFighting = true;
-			anim.SetBool("fight", true); 
+			//isFighting = true;
+			anim.SetBool("fight", true);
+			isFighting = anim.GetBool("fight");
+		
 		}
 		else
 		{
-			bool isFighting = anim.GetBool("fight");
+			//bool isFighting = anim.GetBool("fight");
 			//print("i am not fighting");
-			isFighting = false;
+			//isFighting = false;
 			anim.SetBool("fight", false);
+			isFighting = anim.GetBool("fight");
 		}
+
 
 
         //anim.SetFloat ("InputZ", InputZ, VerticalAnimTime, Time.deltaTime * 2f);
